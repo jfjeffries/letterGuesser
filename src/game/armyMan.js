@@ -21,17 +21,16 @@ export default class ArmyMan extends React.Component {
         if(y<40){
             scale = 1;
         } else if (y>= 40 && y < 50){
-            scale = 1.1;
-        } else if (y >= 50 && y < 60){
             scale = 1.2;
-        } else if (y >= 60 && y < 70){
-            scale = 1.3;
-        } else if (y >= 70 && y < 80){
+        } else if (y >= 50 && y < 60){
             scale = 1.4;
+        } else if (y >= 60 && y < 70){
+            scale = 1.6;
+        } else if (y >= 70 && y < 80){
+            scale = 1.8;
         } else {
-            scale = 1.5;
+            scale = 2;
         }
-        console.log("y",y)
         this.setState({
             scale: scale
         })

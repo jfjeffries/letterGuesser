@@ -23,9 +23,9 @@ export default class MyArmy extends React.Component {
     render(){
         return(
             <div style={this.myArmyStyle}>
-                {
+                {   
                     this.props.fighters.map((fighter, index) => 
-                    <MyArmyMan key={index} value={fighter}/>
+                    <MyArmyMan key={index} value={fighter} index={fighter.index}/>
                     )
                 }
             </div>
