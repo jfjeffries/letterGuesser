@@ -6,11 +6,13 @@ export default function Modal(props){
     }
     if(props.isOpen){
         return (
-            <div>
-                <div>
-                    <h2>{props.didWin}</h2>
+            <div id="modalWrapper">
+                <div id="myModal">
+                    <div>
+                        <h2>{props.didWin}</h2>
+                    </div>
+                    <button onClick={reset}>Reset</button>
                 </div>
-                <button onClick={reset}>Reset</button>
             </div>
         )
     } else {

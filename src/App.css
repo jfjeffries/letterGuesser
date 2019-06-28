@@ -3,8 +3,68 @@ li {
   margin-left: 2em;
   float: left;
 }
-/* body {
-  background-image: url("./dependencies/desert1.jpeg");
+*{
+  margin:0;
+  padding:0;
+}
+/* #splashWrapper{
+  background-image: url("./dependencies/war_torn.jpeg");
+  background-color: red;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+} */
+body {
+  background-image: url("./dependencies/war_torn.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-} */
+
+}
+button{
+  width: 80px;
+  color: white;
+  background-color: black;
+  border-color: black;
+  outline: none;
+  font-weight: bolder;
+  border-radius: .5em;
+  margin-left: 2em;
+  height: 1.5em;
+  /* padding: 1px; */
+  border: 1px solid white;
+}
+input{
+  border-radius: .5em;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 1.5em;
+  outline: none;
+  
+}
+#myModal{
+  position: absolute;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  box-shadow: 2px 4px 4px gray;
+  border-radius: .5em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 1em;
+}
+#myModal button {
+  margin: 0;
+}
+#modalWrapper{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-column: 1/ end;
+  grid-row: 1/end;
+}

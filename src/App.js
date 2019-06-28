@@ -1,11 +1,27 @@
 import React from 'react';
 import './App.css';
-import Main from './game/main';
+import Splash from './splash';
+import Login from './login'
 
 function App() {
+  function shouldReturn(){
+    if(localStorage.getItem("username")){
+      return(
+        <Splash />
+      )
+    } else {
+      return(
+      <Login shouldReturn={shouldReturn}/>
+      )  
+    }
+  }
+  let divStyle = {
+    
+  }
   return (
-    <div className="App">
-      <Main></Main>
+    <div style={divStyle}>
+      {/* {shouldReturn()} */}
+      <Splash />
     </div>
   );
 }
