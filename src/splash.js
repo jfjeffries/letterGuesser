@@ -32,7 +32,7 @@ export default class Splash extends React.Component {
         paddingLeft: "2em",
     }
     whatToDisplay = () => {
-        if(!this.state.wantToPlay){
+        if(this.state.wantToPlay){
             return (
                 <Main />
             )
