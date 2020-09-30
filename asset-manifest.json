@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/letterGuesser/static/css/main.c79d2ab5.chunk.css",
+    "main.js": "/letterGuesser/static/js/main.176c76f9.chunk.js",
+    "main.js.map": "/letterGuesser/static/js/main.176c76f9.chunk.js.map",
+    "runtime~main.js": "/letterGuesser/static/js/runtime~main.36d10640.js",
+    "runtime~main.js.map": "/letterGuesser/static/js/runtime~main.36d10640.js.map",
+    "static/js/2.e703e8cc.chunk.js": "/letterGuesser/static/js/2.e703e8cc.chunk.js",
+    "static/js/2.e703e8cc.chunk.js.map": "/letterGuesser/static/js/2.e703e8cc.chunk.js.map",
+    "index.html": "/letterGuesser/index.html",
+    "precache-manifest.a36e8369ba6e3f7a9fd2aa2814263585.js": "/letterGuesser/precache-manifest.a36e8369ba6e3f7a9fd2aa2814263585.js",
+    "service-worker.js": "/letterGuesser/service-worker.js",
+    "static/css/main.c79d2ab5.chunk.css.map": "/letterGuesser/static/css/main.c79d2ab5.chunk.css.map",
+    "static/media/armyman4.png": "/letterGuesser/static/media/armyman4.ae6a12c3.png",
+    "static/media/explosion1.svg": "/letterGuesser/static/media/explosion1.6433c826.svg",
+    "static/media/explosion2.svg": "/letterGuesser/static/media/explosion2.f530da63.svg",
+    "static/media/explosion3.svg": "/letterGuesser/static/media/explosion3.18082756.svg",
+    "static/media/explosion4.svg": "/letterGuesser/static/media/explosion4.c5e8cdd1.svg"
+  }
+}
